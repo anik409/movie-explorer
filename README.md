@@ -1,4 +1,4 @@
-# 🎬 MovieExplorer
+# 🍿 Popcornly
 
 A responsive movie browsing app built with React, React Router, and the TVMaze API
 

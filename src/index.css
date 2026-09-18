@@ -9,11 +9,12 @@ body {
   font-family: system-ui, sans-serif;
 }
 
-/* ---------- Hero ---------- */
+
 .hero {
   padding: 90px 32px 70px;
   text-align: center;
-  background: radial-gradient(circle at 50% -10%, #262033 0%, #0c0e13 60%);
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h1 {
@@ -40,7 +41,7 @@ body {
   border-radius: 4px;
 }
 
-/* ---------- Movies page ---------- */
+
 .search-form { display: flex; gap: 10px; max-width: 480px; margin: 0 auto 36px; }
 
 .search-form input {
@@ -112,7 +113,7 @@ body {
   font-weight: 600;
 }
 
-/* ---------- Modal ---------- */
+
 .modal-backdrop {
   position: fixed;
   inset: 0;
@@ -144,7 +145,7 @@ body {
 .modal-genres { margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap; }
 .genre-tag { border: 1px solid #262b38; color: #8b90a0; padding: 4px 10px; border-radius: 20px; font-size: 12px; }
 
-/* ---------- Navbar ---------- */
+
 .navbar {
   display: flex;
   align-items: center;

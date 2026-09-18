@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
+import popcornBg from "../assets/popcorn.jpg";
 
-export default function Hero() {
+function Hero() {
   return (
-    <section className="hero">
+    <section
+      className="hero"
+      style={{
+        backgroundImage: `radial-gradient(circle at 50% -10%, rgba(38, 32, 51, 0.85) 0%, rgba(12, 14, 19, 0.92) 60%), url(${popcornBg})`,
+      }}
+    >
       <h1>DISCOVER MOVIES</h1>
       <p>
         Explore and discover your favorite movies and TV shows from
@@ -14,3 +20,5 @@ export default function Hero() {
     </section>
   );
 }
+
+export default Hero;
